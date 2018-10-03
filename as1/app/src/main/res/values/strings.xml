@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">chatterl-feelsbook</string>
+    <string name="love">Love</string>
+    <string name="joy">Joy</string>
+    <string name="anger">anger</string>
+    <string name="fear">fear</string>
+    <string name="sadness">sadness</string>
+    <string name="surprise">surprise</string>
+    <string name="history">HISTORY</string>
+    <string name="add">add</string>
+    <string name="cancel">cancel</string>
+    <string name="add_comment_optional_max_100_characters">Add Comment (optional) Max 100 characters</string>
+    <string name="delete">delete</string>
+</resources>
