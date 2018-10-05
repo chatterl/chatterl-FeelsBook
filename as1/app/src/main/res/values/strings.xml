@@ -11,4 +11,6 @@
     <string name="cancel">cancel</string>
     <string name="add_comment_optional_max_100_characters">Add Comment (optional) Max 100 characters</string>
     <string name="delete">delete</string>
+    <string name="title_activity_delete">delete</string>
+    <string name="textview">TextView</string>
 </resources>

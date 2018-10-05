@@ -3,6 +3,9 @@ package com.example.kyle.as1;
 import java.io.Serializable;
 import java.util.Date;
 
+// this class save the type of emotion
+//the date saved
+// and the comment associated with it
 public class EmotionData implements Serializable {
 
         String emotion;

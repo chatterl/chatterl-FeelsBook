@@ -255,7 +255,7 @@ public class MainActivity extends AppCompatActivity {
         history.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                // i tried to make it persistant however it would crash the whole app so i just commented it out
                 // load old emotions
                 //    loadFromFile();
                 //take user to history screen
@@ -271,7 +271,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
+    //got this function from lonley twitter
     private void loadFromFile() {
 
         try {
@@ -293,7 +293,7 @@ public class MainActivity extends AppCompatActivity {
         }
         //return tweets.toArray(new String[tweets.size()]);
     }
-
+    //got this function from lonley twitter
     private void SaveInFile(EmotionData temp_emotion) {
         try {
             FileOutputStream fos = openFileOutput(FILENAME,
